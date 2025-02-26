@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page Container */
+.p-6 {
+  padding: 2rem;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Buttons */
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+.bg-green-500 {
+  background: linear-gradient(135deg, #28a745, #218838);
+}
+
+.bg-green-500:hover {
+  background: linear-gradient(135deg, #218838, #1e7e34);
+}
+
+.bg-blue-500 {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+}
+
+.bg-blue-500:hover {
+  background: linear-gradient(135deg, #0056b3, #004085);
+}
+
+.bg-gray-400 {
+  background: #6c757d;
+}
+
+.bg-gray-400:hover {
+  background: #5a6268;
+}
+
+/* Modal Styling */
+.bg-white {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #343a40;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Form Buttons */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+/* Table Styling */
+.ag-theme-alpine {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.ag-header {
+  background: #eed5b6;
+  color: white;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .w-96 {
+    width: 100%;
+  }
+
+  .p-6 {
+    padding: 1rem;
+  }
+
+  input,
+  select {
+    font-size: 14px;
+  }
+}
